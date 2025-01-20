@@ -8,6 +8,8 @@ services:
   name: agent-example
   runtime: image
 
+  image: docker push abelregalado/render-image:latest
+
   # Free plan is not available for private services
   plan: starter
 
