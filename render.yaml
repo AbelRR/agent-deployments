@@ -8,9 +8,9 @@ services:
   name: agent-example
   runtime: image
 
-  # # Ensure this image is available on Docker Hub
-  # image:
-  #   url: docker.io/abelregalado/render-image:latest
+  # Ensure this image is available on Docker Hub
+  image:
+    url: docker.io/abelregalado/render-image:latest
 
   # Free plan is not available for private services
   plan: starter
