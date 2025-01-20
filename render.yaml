@@ -13,7 +13,7 @@ services:
     url: docker.io/abelregalado/render-image:latest
 
   # Free plan is not available for private services
-  plan: starter
+  plan: free
 
   # Ensure this environment variable group exists in Render
   envVars:
