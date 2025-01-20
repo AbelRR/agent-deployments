@@ -9,7 +9,8 @@ services:
   runtime: image
 
   # Ensure this image is available on Docker Hub
-  image: docker.io/abelregalado/render-image:latest
+  image:
+    url: docker.io/abelregalado/render-image:latest
 
   # Free plan is not available for private services
   plan: starter
