@@ -1,5 +1,5 @@
 services:
-- type: pserv
+- type: web
   # repo: https://github.com/AbelRR/agent-deployments
 
   # Change this to the path containing your Dockerfile
