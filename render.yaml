@@ -21,7 +21,7 @@ services:
   region: oregon
 
   # 300s is the standard allowed maximum. Talk to render.com support if you need this increased.
-  maxShutdownDelaySeconds: 300
+  # maxShutdownDelaySeconds: 300
 
   # Sane defaults for scaling
   scaling:
