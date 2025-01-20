@@ -23,11 +23,11 @@ services:
   # 300s is the standard allowed maximum. Talk to render.com support if you need this increased.
   # maxShutdownDelaySeconds: 300
 
-  # Sane defaults for scaling
-  scaling:
-    minInstances: 1
-    maxInstances: 4
-    targetCPUPercent: 60
-    targetMemoryPercent: 60
+  # # Sane defaults for scaling
+  # scaling:
+  #   minInstances: 1
+  #   maxInstances: 4
+  #   targetCPUPercent: 60
+  #   targetMemoryPercent: 60
 
 version: "1"
