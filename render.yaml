@@ -8,13 +8,13 @@ services:
   name: agent-example
   runtime: image
 
+  # Ensure this image is available on Docker Hub
   image: abelregalado/render-image:latest
 
   # Free plan is not available for private services
   plan: starter
 
-  # Environment variables are stored in a group
-  # created in the Render dashboard.
+  # Ensure this environment variable group exists in Render
   envVars:
   - fromGroup: agent
   region: oregon
@@ -22,10 +22,11 @@ services:
   # 300s is the standard allowed maximum. Talk to render.com support if you need this increased.
   maxShutdownDelaySeconds: 300
 
-  # Sane defaults
+  # Sane defaults for scaling
   scaling:
     minInstances: 1
     maxInstances: 4
     targetCPUPercent: 60
     targetMemoryPercent: 60
+
 version: "1"
